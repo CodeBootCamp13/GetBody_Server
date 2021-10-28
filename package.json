@@ -1,0 +1,26 @@
+{
+  "name": "getbody_server",
+  "version": "1.0.0",
+  "description": "Health, Fitness, Weight tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeBootCamp13/GetBody_Server.git"
+  },
+  "author": "Eric Harrison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeBootCamp13/GetBody_Server/issues"
+  },
+  "homepage": "https://github.com/CodeBootCamp13/GetBody_Server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}

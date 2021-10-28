@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GetBody - Your Wellness Tracker</title>
+
+	<link rel="stylesheet" href="/css/getbody.css">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js" defer></script>
+	<script src="/js/getbody.js" defer></script>
+
+</head>
+<body>
+	<header>
+		<h1>GetBody</h1>
+
+		<nav>
+			<ul>
+				<li>
+					<a href="/">Weight Tracker</a>
+				</li>
+				<li>
+					<a href="#">Exercise Log</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="content">
+
+		<div class="inputArea">
+			<form action="/weight" method="post">
+				<input type="text" name="weight" id="weight">
+				<input type="submit" value="Log Weight">
+			</form>
+		</div>
+
+		<div class="logArea">
+			
+			<div id="weightLog">
+				<ul id="weightList">
+					
+					<li><strong class="weight">205</strong><span id="unit">lbs</span> - 10/28/2021</li>
+					<li><strong class="weight">205</strong><span id="unit">lbs</span> - 10/28/2021</li>
+					<li><strong class="weight">205</strong><span id="unit">lbs</span> - 10/28/2021</li>
+					<li><strong class="weight">205</strong><span id="unit">lbs</span> - 10/28/2021</li>
+					<li><strong class="weight">205</strong><span id="unit">lbs</span> - 10/28/2021</li>
+					<li><strong class="weight">205</strong><span id="unit">lbs</span> - 10/28/2021</li>
+				</ul>
+			</div>
+
+			<div id="weightChart">
+				<canvas id="myChart" width="400" height="200"></canvas>
+			</div>
+
+		</div>
+
+	</div>
+
+	<footer>
+		<h5>Copyright &copy; 2021 GetBody</h5>
+	</footer>
+
+
+</body>
+</html>

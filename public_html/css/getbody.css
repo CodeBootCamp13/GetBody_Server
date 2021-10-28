@@ -1,0 +1,64 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+	margin: 0;
+}
+
+header {
+	background-color: mediumspringgreen;
+}
+
+nav {
+	background-color: #999;
+	
+}
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	gap: 32px;
+	height: 32px;
+	align-items: center;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+div.content { 
+	height: 80vh;
+	margin: 0px 32px;
+}
+
+div.inputArea {
+	margin-bottom: 12px;
+}
+div.inputArea input[type=text] {
+	width: 30%;
+}
+
+
+div.logArea {
+	display:flex;
+
+}
+
+div#weightLog {
+	background-color: #999;
+	width: 25vw;
+}
+
+div#weightChart {
+	background-color: #fff;
+	width: 50vw;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	height: 40%;
+	padding: 5%;
+}
